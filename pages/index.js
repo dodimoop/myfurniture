@@ -61,7 +61,7 @@ export default function Index() {
     const fetchData = async () => {
       setIsFetchingData(true)
       const response = await Axios.get(
-        'http://www.mocky.io/v2/5c9105cb330000112b649af8'
+        'https://www.mocky.io/v2/5c9105cb330000112b649af8'
       )
 
       setFurniture({ ...furniture, data: response.data.furniture_styles })
