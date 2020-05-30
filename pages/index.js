@@ -39,7 +39,7 @@ import {
 
 import NotFoundImage from '../src/notFound.svg'
 
-import Style from './style'
+import Style from '../src/style'
 
 export default function Index() {
   // useState
